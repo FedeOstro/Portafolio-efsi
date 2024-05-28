@@ -1,0 +1,158 @@
+/* app.css */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  padding-top: 60px; /* Añade espacio para la barra de navegación */
+}
+
+/* app.css */
+/* app.css */
+.header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+  background-color: rgb(255, 255, 255);
+  border-bottom: 1px solid black;
+  color: rgb(0, 0, 0);
+  display: flex;
+  align-items: center;
+  padding-left: 20px; /* Ajuste para dejar espacio en los extremos */
+  padding-right: 20px; /* Ajuste para dejar espacio en los extremos */
+}
+
+.header h1{
+  margin-left: 20px;
+}
+
+ul {
+  list-style-type: none; /* Quitamos los puntos de la lista */
+  margin-left: 850px; /* Quitamos el margen predeterminado */
+  padding: 0; /* Quitamos el relleno predeterminado */
+}
+
+li {
+  display: inline;
+  margin-right: 10px; /* Ajusta el margen entre elementos del menú */
+}
+
+li:first-child {
+  margin-left: 30; /* Ajusta el margen izquierdo del primer elemento */
+}
+
+li:last-child {
+  margin-right: 0; /* Elimina el margen del último elemento */
+}
+
+li a {
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  text-align: center;
+  font-weight: 200;
+  font-size: 18px;
+}
+
+li a:hover {
+  text-shadow: 0.001px 0 0 white;
+}
+
+@media screen and (max-width: 600px) {
+  .header {
+    padding-left: 10px; /* Ajuste para dejar espacio en los extremos */
+    padding-right: 10px; /* Ajuste para dejar espacio en los extremos */
+  }
+
+  li {
+    margin-right: 5px; /* Ajusta el margen entre elementos del menú en pantallas pequeñas */
+  }
+}
+
+
+
+.perfil{
+  display: flex;
+  display: column;
+  margin: 30px;
+  width: 1200px;
+}
+
+.perfil img{
+  border-radius: 30%;
+  margin-right: 30px;
+}
+
+.perfil p{
+  margin-left: 20px;
+}
+
+.centrador {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+
+.contenedor img{
+  height: 200px;
+  width: auto;
+  margin: 40px;
+}
+
+.contenedor h3{
+  text-align: center;
+}
+
+.cardexp {
+  border: 1px solid black;
+  height: 500px;
+  width: 400px;
+  border-radius: 2%;
+  margin: 20px;
+}
+
+.headerCard {
+  border-bottom: 1px solid black;
+  height: auto;
+  width: 400px;
+  border-radius: 6% 6% 0 0; /* Ajustado para que coincida con el radio de la parte superior de cardexp */
+  background-color: rgb(201, 201, 201);
+  display: flex;
+  display: column;
+}
+
+
+.headerCard h2{
+  margin-top: 0;
+  margin-bottom: 10px;
+  margin-left: 5px;
+  margin-right: 5px;
+  padding: 0;
+  content: 20px;
+}
+.headerCard h6{
+  margin-top: 0;
+  margin-bottom: 5px;
+  margin-left: 5px;
+  margin-right: 5px;
+  padding: 0;
+}
+
+.headerCard img{
+  height: 50px;
+  width: 50px;
+  margin: 10px;
+  padding-left: 120px;
+}
+
+.datacard p{
+  margin: 10px;
+}
+
+.cards {
+  display: flex;
+  display: column;
+}
