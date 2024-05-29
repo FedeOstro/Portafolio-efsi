@@ -156,3 +156,40 @@ li a:hover {
   display: flex;
   display: column;
 }
+
+.educacion {
+  position: relative;
+  display: flex;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: #fff;
+  background-clip: border-box;
+  border: 2px solid #000000;
+  border-radius: 10px;
+  margin-bottom: 2rem !important;
+  flex-direction: column;
+}
+
+.education-header{
+    margin-bottom: 0;
+    background-color: #cfcfcf;
+    border-bottom: 2px solid #f4f6f8;
+    padding-top: 1rem !important;
+    padding-bottom: 1rem !important;
+    padding-right: 2rem !important;
+    padding-left: 2rem !important;
+    border-radius: 8px 8px 0 0;
+}
+
+.education-title{
+  margin-bottom: .5rem !important;
+}
+
+.education-subtitle{
+  font-size: 1rem;
+  color: #6c757d !important;
+}
+
+*, ::after, ::before {
+  box-sizing: border-box;
+}

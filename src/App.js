@@ -7,6 +7,7 @@ import javascipt from "./javascript.png"
 import html from "./html.jpg"
 import fullstack from "./fullstack.png"
 import remo from "./remoicon.jpg"
+import scholem from "./scholem.png"
     function App() {
       return (
         <div>
@@ -87,6 +88,18 @@ import remo from "./remoicon.jpg"
          </div>
         </div>
           <Seccion className="Educación"></Seccion>
+          <div class="educacion" >
+                <div class="education-header"> 
+                    <div>
+                      <h3 class="education-title">Primaria </h3><img src={scholem} alt=""></img>
+                      <div class="education-subtitle">Scholem<small>(2013-2019)</small></div>
+                    </div>
+                </div>
+                <div>
+                  <p>Termino su primaria</p>
+                </div>
+              </div>
+              <div></div>
             
 
           <Seccion className="Certificaciones"></Seccion>
