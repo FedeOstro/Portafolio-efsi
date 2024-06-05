@@ -8,6 +8,7 @@ import html from "./html.jpg"
 import fullstack from "./fullstack.png"
 import remo from "./remoicon.jpg"
 import scholem from "./scholem.png"
+import ORT from "./ORT.jpg"
     function App() {
       return (
         <div>
@@ -88,6 +89,7 @@ import scholem from "./scholem.png"
          </div>
         </div>
           <Seccion className="Educación"></Seccion>
+          <div class="cards">
           <div class="educacion" >
                 <div class="education-header"> 
                     <div>
@@ -96,11 +98,23 @@ import scholem from "./scholem.png"
                     </div>
                 </div>
                 <div>
-                  <p>Termino su primaria</p>
+                  <p class="pxL3">Termino su primaria</p>
                 </div>
               </div>
               <div></div>
-            
+              <div class="educacion" >
+                <div class="education-header"> 
+                    <div>
+                      <h3 class="education-title">Secundaria </h3><img src={ORT} alt="" width="441" height="223"></img>
+                      <div class="education-subtitle">ORT Yatay<small>(2019-2024)</small></div>
+                    </div>
+                </div>
+                <div>
+                  <p class="pxL3">No termino su secundaria</p>
+                </div>
+              </div>
+              <div></div>
+              </div>
 
           <Seccion className="Certificaciones"></Seccion>
           
